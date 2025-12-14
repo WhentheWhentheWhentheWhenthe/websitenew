@@ -1,17 +1,17 @@
 /* Basic Styling */
+
 .text{
   text-transform: uppercase; 
-  background-image: linear-gradient(to right, #e81416, #ffa500, #faeb36, #79c314, #487de7, #4b369d, #70369d );
+  background-image: linear-gradient(to right, #e81416, #ffa500, #faeb36, #79c314, #487de7, #4b369d, #70369d);
   -webkit-background-clip: text; 
   background-clip: text; 
   color: transparent;
   font-family: Arial, Helvetica, sans-serif;
-  
   background-size: 300%;
-  background-position: -100%;  
-  
+  background-position: -100%;   
   animation: animatedText 5s infinite alternate-reverse;
 }
+
 
 @keyframes animatedText{
   to{
@@ -19,8 +19,8 @@
   }
 }
 .destext{
-  color:#00ffff;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  color:#ae00ff65;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body{
@@ -33,7 +33,10 @@ body{
 }
 a:hover {
   background-color: rgb(0, 0, 0);
-  font-size: fill;
+    margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 .destextborder {
     border-style: solid;
@@ -41,5 +44,19 @@ a:hover {
     border-left-width: 10px;
     border-right-width: 10px;
     border-color: rgb(0, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#preloader {
+  background: var(--blue)
+    url("https://i.redd.it/73zf6kwsfb5f1.gif")
+    no-repeat center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 9999;
 }
