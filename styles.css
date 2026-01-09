@@ -60,11 +60,11 @@ a:hover {
 }
 
 .loader > img {
-    width: 100px;
+    width: 200px;
 }
 
 .loader.hidden {
-    animation: fadeOut .0.5s;
+    animation: fadeOut .2s;
     animation-fill-mode: forwards;
 }
 
