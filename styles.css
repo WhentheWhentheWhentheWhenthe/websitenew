@@ -60,7 +60,7 @@ a:hover {
 }
 
 .loader > img {
-    width: 200px;
+    width: 300px;
 }
 
 .loader.hidden {
