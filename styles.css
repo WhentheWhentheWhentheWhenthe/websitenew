@@ -9,6 +9,11 @@
   background-size: 300%;
   background-position: -100%;   
   animation: animatedText 5s infinite alternate-reverse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  
 }
 
 
@@ -23,7 +28,7 @@
 }
 
 body{
-    background-image: url('https://hc-cdn.hel1.your-objectstorage.com/s/v3/9bcc2c93adbe3a03_bl__haj-spin.gif');
+    background-image: url= ('https://blob.gifcities.org/gifcities/7QYZXBU4KD6EC2LB52RZ6DLVG5D6U6KS.gif');
     background-size: fill;
     
     height: 100vh;
@@ -31,19 +36,11 @@ body{
     margin:0;
 }
 a:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(4, 0, 255);
     margin-top: auto;
   margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
-}
-.destextborder {
-    border-style: solid;
-    border-width: 3px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: rgb(0, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .loader {
     position: fixed;
@@ -73,9 +70,42 @@ a:hover {
         visibility: hidden;
     }
 }
-
 .thumb {
     height: 100px;
     border: 1px solid black;
     margin: 10px;
+}
+h4 {
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: rgb(250, 20, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(25, 0, 255);
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+    background-color: aqua;
+}
+.cntr {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+h2 {
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: rgb(250, 20, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(25, 0, 255);
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+    background-color: aqua;
 }
