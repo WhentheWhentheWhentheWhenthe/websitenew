@@ -1,28 +1,12 @@
 
 .text{
-  text-transform: uppercase; 
-  background-image: linear-gradient(to right, #e81416, #ffa500, #faeb36, #79c314, #487de7, #4b369d, #70369d);
-  -webkit-background-clip: text; 
-  background-clip: text; 
-  color: transparent;
-  font-family: "Papyrus",Arial, Helvetica, sans-serif;
-  background-size: 300%;
-  background-position: -100%;   
-  animation: animatedText 5s infinite alternate-reverse;
-  display: flex;
-  justify-content: center;
+  font-family: 'comic sans';
   align-items: center;
-  height: 200px;
-  
+  display: flex; 
+  justify-content: center;
 }
 
-
-@keyframes animatedText{
-  to{
-    background-position: 100%; 
-  }
-}
-.destext{
+  .destext{
   color:#ff0000;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
